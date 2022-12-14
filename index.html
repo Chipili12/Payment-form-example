@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card position-absolute top-50 start-50 translate-middle">
+      <div class="p-2 pb-0">
+        <form class="row g-3">
+          <div class="col-12 pt-2 pe-0 ps-0 container-fluid">
+            <div class="bg-light p-2 border"><h1 class="card-title">Payment form example</h1></div>
+          </div>
+          <div class="col-12 mt-3">
+            <div class="bg-danger p-2 bg-opacity-25 m-0 p-0 rounded card">
+              <h2 class="fs-6 m-2 fw-semibold">Some fields are missing</h2>
+            </div>
+          </div>
+        <div class="col-md-5">
+          <label for="inputCard" class="form-label fw-semibold">Card #</label>
+          <input type="card" class="form-control" id="inputCard" placeholder="XXXX-XXXX-XXXX-XXXX">
+        </div>
+
+        <div class="col-md-3">
+          <label for="inputCCV" class="form-label fw-semibold">CCV</label>
+          <input type="password" class="form-control" id="inputCCV" placeholder="000">
+        </div>
+
+        <div class="col-md-4">
+            <label for="inputCCV" class="form-label fw-semibold">Amount</label>
+              <div class="input-group mb-2">
+                <span class="input-group-text" id="basic-addon1">$</span>
+                <input type="text" class="form-control" placeholder="Amount"aria-describedby="basic-addon1">
+              </div>
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputName" class="form-label fw-semibold">First Name</label>
+          <input type="text" class="form-control" id="inputName">
+          </div>
+
+            <div class="col-md-6">
+              <label for="inputLastname" class="form-label fw-semibold">Last Name</label>
+              <input type="text" class="form-control" id="inputLastname">
+            </div>
+
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label fw-semibold">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+
+          <div class="col-md-3">
+            <label for="inputState" class="form-label fw-semibold">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Pick a state</option>
+                <option>...</option>
+            </select>
+          </div>
+
+          <div class="col-md-3">
+            <label for="inputZip" class="form-label fw-semibold">Postal Code</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">We accept:</label>
+            <div class="form-check form-check-inline bg-secondary rounded p-2 ">
+              
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                <i class="fa-brands fa-cc-visa"></i>
+                </label>
+              </div>
+
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    <i class="fa-brands fa-cc-paypal"></i>
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline ">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    <i class="fa-brands fa-cc-diners-club"></i>
+                  </label>
+                </div>
+
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-6">
+            <label for="inputMessage" class="form-label fw-semibold">Message</label>
+            <input type="text" class="form-control overflow-wrap text-break" style="height: 100px;" id="inputMessage">
+            <label for="Message" class="form-label fs-6 fw-lighter text-muted">Add any notes here</label>
+          </div>
+  
+          <div class="col-12 justify-content-md-end bg-light border p-2 container-fluid ">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <button class="btn btn-secondary me-md-2" type="button">Cancel</button>
+  <button class="btn btn-primary" type="button">Send</button>
+</div>
+    </div>
+    <script src="https://kit.fontawesome.com/3584a5b3ab.js" crossorigin="anonymous"></script>
+</body>
+</html>
