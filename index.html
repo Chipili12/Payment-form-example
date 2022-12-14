@@ -12,7 +12,7 @@
       <div class="p-2 pb-0">
         <form class="row g-3">
           <div class="col-12 pt-2 pe-0 ps-0 container-fluid">
-            <div class="bg-light p-2 border"><h1 class="card-title">Payment form example</h1></div>
+            <div class="bg-light p-2 border rounded-top"><h1 class="card-title">Payment form example</h1></div>
           </div>
           <div class="col-12 mt-3">
             <div class="bg-danger p-2 bg-opacity-25 m-0 p-0 rounded card">
@@ -65,9 +65,9 @@
             <input type="text" class="form-control" id="inputZip">
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-auto">
             <label for="inputState" class="form-label">We accept:</label>
-            <div class="form-check form-check-inline bg-secondary rounded p-2 ">
+            <div class="form-check bg-secondary rounded p-2 ">
               
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexCheckDefault">
@@ -96,22 +96,20 @@
                     <i class="fa-brands fa-cc-diners-club"></i>
                   </label>
                 </div>
-
+              </div>
             </div>
-          </div>
-          <div class="col-md-2"></div>
-          <div class="col-md-6">
-            <label for="inputMessage" class="form-label fw-semibold">Message</label>
-            <input type="text" class="form-control overflow-wrap text-break" style="height: 100px;" id="inputMessage">
-            <label for="Message" class="form-label fs-6 fw-lighter text-muted">Add any notes here</label>
-          </div>
-  
-          <div class="col-12 justify-content-md-end bg-light border p-2 container-fluid ">
+           <div class="col-md-6 justify-content-md-end me-0 container-fluid">
+              <label for="inputMessage" class="form-label fw-semibold">Message</label>
+              <input type="text" class="form-control overflow-wrap text-break" style="height: 100px;" id="inputMessage">
+              <label for="Message" class="form-label fs-6 fw-lighter text-muted">Add any notes here</label>
+           </div>
+          <div class="col-12 justify-content-md-end bg-light p-2 container-fluid border rounded-bottom">
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-  <button class="btn btn-secondary me-md-2" type="button">Cancel</button>
-  <button class="btn btn-primary" type="button">Send</button>
-</div>
-    </div>
+              <button class="btn btn-secondary me-md-2" type="button">Cancel</button>
+              <button class="btn btn-primary" type="button">Send</button>
+          </div>
+      </div>
+     </div>
     <script src="https://kit.fontawesome.com/3584a5b3ab.js" crossorigin="anonymous"></script>
 </body>
 </html>
